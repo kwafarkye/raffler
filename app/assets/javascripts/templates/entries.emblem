@@ -1,0 +1,5 @@
+Ember.TextField valueBinding="newEntryName" action="addEntry"
+= newEntryName
+ul
+	each entries
+		li = name

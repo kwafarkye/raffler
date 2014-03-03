@@ -55,6 +55,7 @@ group :assets do
 end
 
 gem 'ember-rails'
+gem 'emblem-rails'
 
 group :development, :test do
   gem "rack-mini-profiler"
