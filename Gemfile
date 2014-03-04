@@ -56,6 +56,8 @@ end
 
 gem 'ember-rails'
 gem 'emblem-rails'
+gem 'rabl'
+gem 'oj'
 
 group :development, :test do
   gem "rack-mini-profiler"

@@ -1,4 +1,3 @@
 #container
 	h1 Raffler
-	h3 = appName
-	== outlet
+	= outlet

@@ -1,6 +1,10 @@
 # http://emberjs.com/guides/models/using-the-store/
+Raffler.RESTAdapter = DS.RESTAdapter.extend
+	serializer: DS.RESTSerializer.extend
+		primaryKey: (type) ->
+			'_id'
 
 Raffler.Store = DS.Store.extend
-  # Override the default adapter with the `DS.ActiveModelAdapter` which
-  # is built to work nicely with the ActiveModel::Serializers gem.
-  adapter: '_ams'
+	adapter: Raffler.RESTAdapter
+
+Raffler.RESTAdapter.configure("plurals", entry: "entries")
