@@ -49,6 +49,7 @@ gem "haml-rails"
 gem "mongoid", git: "git://github.com/mongoid/mongoid.git"
 gem "moped", github: "mongoid/moped"
 gem "unicorn"
+
 group :assets do
   gem "compass-rails"
   gem "bootstrap-sass-rails"

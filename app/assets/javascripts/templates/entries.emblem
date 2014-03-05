@@ -1,8 +1,8 @@
-Ember.TextField valueBinding="newEntryName" action="addEntry"
+view Raffler.NewEntryView
 ul
 	each controller
 		li 
 			= name
 			if winner
 				span class={winner highlight} Winner
-button{bind-attr disabled="allWinners"}{action="drawWinner"} Draw Winner
+button{bind-attr disabled="allWinners"}{action "drawWinner"} Draw Winner

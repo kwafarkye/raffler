@@ -1,0 +1,2 @@
+Ember.TextField valueBinding="view.newEntryName"
+input type="submit" value="add"
